@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="description" this is a simple form , have fun">
+		<title>Simple form</title>
+		<style>
+		body 
+		{
+		background:#EFEFEF;
+		font-family:Arial , Tahoma;
+		}
+		
+		fieldset
+		{
+		background:#FFF;
+		border: 1px solid #CCC;
+		padding 10px;
+		margin-bottom:20px;
+		width:500px;
+		margin:20px auto
+		}
+		legend 
+		{
+		 background:#FFF; border : 1px solid #CCC ; padding 5px ;font-size:25px ; 
+	 	}
+		label{display :block}
+		label , input {margin-bottom:10px}
+		input[type="text"],input[type="password"]{padding:5px;width:300px;display:block}
+		
+		</style>
+	</head>
+	<body>
+		<form name = "Register">
+			<fieldset>
+				<legend>Personal Information</legend>
+					<label>User Name</label>
+					<input type = "text" name ="username">
+					<label>Password</label>
+					<input type = "password" name ="Password">
+					<label>Re Password</label>
+					<input type = "password" name ="RePassword">
+					<label>Email</label>
+					<input type = "text" name ="Email">
+					<label>Mobile Number</label>
+					<input type = "text" name ="mobile" maxlength ="11">
+					<label>Gender</label>
+					
+					<input type="radio" name="gender" value="1">Male 
+					<input type="radio" name="gender"value="2">Female
+					<br>
+					<br>
+					Your department at faculty
+					<select name="Your department at faculty">
+						<option>prep</option>
+							<optgroup label="electrical">
+								<option>1st electrical</option>
+								<option>2nd electrical</option>
+							<optgroup label="electronics">
+								<option>3rd electronics</option>
+								<option>4rt electronics</option>
+							</optgroup>
+							<optgroup label="computer">
+								<option>3rd computer</option>
+								<option>4rt computer</option>
+							</optgroup>
+							<optgroup label="power">
+								<option>3rd power</option>
+								<option>4rt power</option>
+							
+							</optgroup>
+							<optgroup label="civil">
+								<option>1st civil</option>
+								<option>2nd civil</option>
+								<option>3nd civil</option>
+								<option>4nd civil</option>
+							</optgroup>
+							<optgroup label="arch">
+								<option>1st arch</option>
+								<option>2nd arch</option>
+								<option>3nd arch</option>
+								<option>4nd arch</option>
+							</optgroup>
+							<optgroup label="mech">
+								<option>1st mech</option>
+								<option>2nd mech</option>
+								<option>3nd mech</option>
+								<option>4nd mech</option>
+							</optgroup>
+							
+					</select>
+					
+					
+			</fieldset>
+			<fieldset>
+			<legend>Favourits</legend>
+			<br>
+				<label>Your favourit mobile kind</label>
+				<input type="radio" name ="mobile" value ="1">Apple
+				<input type="radio" name ="mobile" value ="2">Samsung		
+				<input type="radio" name ="mobile" value ="3">HTC
+				<input type="radio" name ="mobile" value ="4">xiaomi
+				<input type="radio" name ="mobile" value ="5">infinix
+				<input type="radio" name ="mobile" value ="6">lenovo
+                <br>
+				<br>
+				<label>your favourit social media page</label>
+				<input type="radio" name ="SMP" value ="1">Facebook
+				<input type="radio" name ="SMP" value ="1">twitter
+				<input type="radio" name ="SMP" value ="1">instagram
+				<input type="radio" name ="SMP" value ="1">youtube
+				</fieldset>
+				
+			<fieldset>
+				<legend>Submitting</legend>
+				<br>
+				<input type="checkbox">
+				<span>Remember me</span>
+				<br>
+				<input type="submit" value="sign up" >
+				<br>
+				
+				<input type="reset">
+			
+			</fieldset>	
+		</form>
+		
+	</body>
+</html>
