@@ -13,7 +13,7 @@ header
 	background-size: 100%;
 	background-position: right;
 	opacity: .75;
-	
+		
 }
 h3
 {
@@ -41,7 +41,7 @@ h3
 {
 	color: gray;
 	font-size: 16.5px;
-	padding: 8px ;
+	padding: 8px;
 	
 
 }
@@ -52,5 +52,12 @@ h3
 }
 img:hover
 {
-	opacity: 1
+	opacity: 1;
+
+}
+.search:hover
+{
+	background-color: red;
+	color: white;
+	padding:8px;
 }
