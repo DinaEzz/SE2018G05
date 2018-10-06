@@ -1,0 +1,35 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+	
+.header
+{	
+	min-width: 100%;
+	min-height: 400px;
+	background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+	opacity: .75
+}
+h3
+{
+	text-align: center;
+	color: gray;
+	margin: 80px 0 0 0;
+	font-size: 150%;
+}
+h4
+{
+	text-align: center;
+	color: gray;
+	margin: 30px 0 0 0;	
+	font-style: italic;
+
+}
+.p1
+{
+	color: gray;
+}
