@@ -50,3 +50,7 @@ h3
 	color: black;
 	background-color: LightGray;
 }
+img:hover
+{
+	opacity: 1
+}
