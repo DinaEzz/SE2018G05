@@ -50,9 +50,13 @@ h3
 	color: black;
 	background-color: LightGray;
 }
+.image1
+{
+	opacity:.7
+}
 .image1:hover
 {
-	opacity:.1
+	opacity:1
 
 }
 .search:hover
@@ -97,3 +101,16 @@ h3
 	background-position: right;
 	opacity: .75
 }
+.footer1
+{
+	opacity: .5
+}	
+.footer1:hover
+{
+	opacity: 1
+}
+a:active
+{
+	color: black
+}
+
