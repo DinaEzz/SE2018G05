@@ -121,3 +121,14 @@ a
 {
 	color: white
 }
+button:hover
+{
+	background-color:gray;
+	color: black;
+	cursor:pointer;
+}
+button
+{
+	color:white;
+	background-color:black;
+}
