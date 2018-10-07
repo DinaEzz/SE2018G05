@@ -75,3 +75,10 @@ img:hover
 	color: white;
 	font-size: 17px;
 }
+.PORTFOLIO
+{
+	background-image: url("https://www.w3schools.com/w3css/img_parallax2.jpg");
+	background-size: 100%;
+	background-position: right;
+	letter-spacing: 5px
+}
