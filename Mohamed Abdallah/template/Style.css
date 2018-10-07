@@ -113,4 +113,11 @@ a:active
 {
 	color: black
 }
-
+a:hover
+{
+	color: gray;
+}
+a
+{
+	color: white
+}
