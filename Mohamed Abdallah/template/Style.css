@@ -50,9 +50,9 @@ h3
 	color: black;
 	background-color: LightGray;
 }
-img:hover
+.image1:hover
 {
-	opacity: 1;
+	opacity:.1
 
 }
 .search:hover
@@ -81,4 +81,19 @@ img:hover
 	background-size: 100%;
 	background-position: right;
 	letter-spacing: 5px
+}
+.work:hover
+{
+	opacity: .5
+}
+.work
+{
+	margin: 0 10px 0 0
+}
+.CONTACT
+{
+	background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+	background-size: 100%;
+	background-position: right;
+	opacity: .75
 }
