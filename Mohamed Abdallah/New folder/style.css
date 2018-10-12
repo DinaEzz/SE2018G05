@@ -1,0 +1,108 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+/* Start header */
+header
+{
+	background-image:url("Home.jpg");
+	height:70vh;
+}
+
+.bar
+{
+	min-width:100%;
+	height:5vh;
+	background-color:#9d500e;
+	color:white;
+	box-sizing:border-box;
+	
+}
+.bar .come
+{
+	padding-left:3%;
+	padding-top:.5%;
+	float:left;
+}
+.bar .call
+{
+	padding-top:.5%;
+	padding-left:84%;
+	
+}
+.bar i
+{
+	margin-right:7px;
+}
+.navigation_bar
+{
+	min-width:100%;
+	height:9vh;
+	background-color:white;
+	padding-top:1%;
+	box-sizing:border-box;
+}
+.navigation_bar span
+{
+	color:#9d500e;
+}
+.navigation_bar .IT
+{
+	font-size:25px;
+	display:inline;
+}
+.navigation_bar i
+{
+	padding-right:5px;
+	padding-left:4%;
+	display:inline;
+}
+.navigation_bar .Home
+{
+	display:inline;
+	margin-left:50%;
+	background-color:#9d500e ;
+	color:white;
+	padding:1%;
+	border-radius:45%;
+}
+.navigation_bar .Gallery
+{
+	display:inline;
+	margin-left:3%;
+}
+.navigation_bar .Contact
+{
+	display:inline;
+	margin-left:3%;
+}
+
+.navigation_bar .Gallery:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	padding:1%;
+	border-radius:45%;
+	cursor:pointer;
+}
+.navigation_bar .Gallery:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	padding:1%;
+	border-radius:45%;
+	cursor:pointer;
+}
+.navigation_bar .Contact:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	padding:1%;
+	border-radius:40%;
+	cursor:pointer;
+}
+
+
+
+/* End header */
