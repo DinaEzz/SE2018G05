@@ -105,6 +105,7 @@
 	height:60vh;
 	box-sizing:border-box;
 	background-size: cover;
+	background-color:rgba(0,0,0,1);
 }
 .sec p
 {
@@ -139,13 +140,13 @@
 .sec1
 {
 	background-color:#171319;
-	height:70vh;
+	height:50vh;
 }
 .sec1 .funny
 {
 	width:25%;
 	float:left;
-	margin:5% .5% 0% 8%;
+	margin:5% .5% 0% 6%;
 	padding:1%;
 	box-sizing:border-box;
 
@@ -154,17 +155,17 @@
 {
 	width:25%;
 	float:left;
-	margin:5% .5% 0% 8%;
+	margin:5% .5% 0% 6%;
 	padding:1%;
 	box-sizing:border-box;
 }
 .sec1 .love
 {
-	width:20%;
-	height:20vh;
-	background-color:black;
+	width:25%;
 	float:left;
-	margin:5% .5% 0% 8%;	
+	margin:5% .5% 0% 6%;
+	padding:1%;
+	box-sizing:border-box;	
 }
 /* Start funny */
 .funny i
@@ -283,3 +284,62 @@
 	border:2px solid #934c0f;
 }
 /* End challenge */
+
+/*start love */
+.love i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.love p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.love .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.love a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.love a div
+{
+	background-color:#934c0f;
+	padding:3%;
+	width:40%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.love:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.love:hover i
+{
+	top:-10px;
+}
+.love:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* end love */
