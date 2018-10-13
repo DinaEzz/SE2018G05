@@ -4,11 +4,6 @@
 	margin:0;
 }
 /* Start header */
-header
-{
-	background-image:url("Home.jpg");
-	height:70vh;
-}
 
 .bar
 {
@@ -17,7 +12,6 @@ header
 	background-color:#9d500e;
 	color:white;
 	box-sizing:border-box;
-	
 }
 .bar .come
 {
@@ -46,6 +40,7 @@ header
 .navigation_bar span
 {
 	color:#9d500e;
+	font-weight:bold;
 }
 .navigation_bar .IT
 {
@@ -65,7 +60,7 @@ header
 	background-color:#9d500e ;
 	color:white;
 	padding:1%;
-	border-radius:45%;
+	border-radius:45px;
 	text-decoration:none;
 }
 .navigation_bar .Gallery
@@ -89,17 +84,202 @@ header
 {
 	background-color:#9d500e ;
 	color:white;
-	border-radius:35%;
+	border-radius:35px;
 	cursor:pointer;
 }
 .navigation_bar .Contact:hover
 {
 	background-color:#9d500e ;
 	color:white;
-	border-radius:35%;
+	border-radius:35px;
 	cursor:pointer;
 }
 
-
-
 /* End header */
+
+/* Start Sectio */
+
+.sec
+{
+	background-image:url("Home.jpg");
+	height:60vh;
+	box-sizing:border-box;
+	background-size: cover;
+}
+.sec p
+{
+	color:white;
+	width:28%;
+	font-size:35px;
+	padding:8% 0 0 8%; 
+
+}
+.sec a
+{
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	padding:4% 0 0 8%	
+}
+.sec .Join
+{
+	margin-left:8%;
+	background-color:#9d500e;
+	width:13%;
+	padding:1%;
+	text-align:center;
+	border-radius:35px;
+	box-sizing:border-box;
+}
+.sec .Join:hover
+{
+	background-color:#061B30;
+	border:2px solid #9d500e;
+}
+.sec1
+{
+	background-color:#171319;
+	height:70vh;
+}
+.sec1 .funny
+{
+	width:25%;
+	float:left;
+	margin:5% .5% 0% 8%;
+	padding:1%;
+	box-sizing:border-box;
+
+}
+.sec1 .challenge
+{
+	width:25%;
+	float:left;
+	margin:5% .5% 0% 8%;
+	padding:1%;
+	box-sizing:border-box;
+}
+.sec1 .love
+{
+	width:20%;
+	height:20vh;
+	background-color:black;
+	float:left;
+	margin:5% .5% 0% 8%;	
+}
+/* Start funny */
+.funny i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.funny p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.funny .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.funny a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.funny a div
+{
+	background-color:#934c0f;
+	padding:3%;
+	width:40%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.funny:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.funny:hover i
+{
+	top:-10px;
+}
+.funny:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End funny */
+
+/* start challeng */
+.challenge i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.challenge p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.challenge .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.challenge a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.challenge a div
+{
+	background-color:#934c0f;
+	padding:3%;
+	width:40%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.challenge:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.challenge:hover i
+{
+	top:-10px;
+}
+.challenge:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End challenge */
