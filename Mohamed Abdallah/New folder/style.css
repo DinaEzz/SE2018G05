@@ -101,13 +101,17 @@
 
  /*Start sec */
 .sec
-{
-	background-image:url("Home.jpg");
+{	
+	background:linear-gradient(
+		rgba(0,0,0,.7),
+		rgba(0,0,0,.7)
+		),
+		url(Home.jpg);
 	height:60vh;
 	box-sizing:border-box;
 	background-size: cover;
-	background-color:rgba(0,0,0,1);
 }
+
 .sec p
 {
 	color:white;
