@@ -22,7 +22,7 @@
 .bar .call
 {
 	padding-top:.5%;
-	padding-left:84%;
+	padding-left:80%;
 	
 }
 .bar i
@@ -115,7 +115,7 @@
 .sec p
 {
 	color:white;
-	width:28%;
+	width:50%;
 	font-size:35px;
 	padding:8% 0 0 8%; 
 
@@ -131,8 +131,8 @@
 {
 	margin-left:8%;
 	background-color:#9d500e;
-	width:13%;
-	padding:1%;
+	width:20%;
+	padding:2%;
 	text-align:center;
 	border-radius:35px;
 	box-sizing:border-box;
@@ -148,7 +148,7 @@
 .sec1
 {
 	background-color:#171319;
-	height:53vh
+	height:60vh
 }
 .sec1 .funny
 {
@@ -211,8 +211,557 @@
 .funny a div
 {
 	background-color:#934c0f;
-	padding:3%;
+	padding:8%;
+	width:50%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 7%;
+	margin-left:3%;
+	font-size:22px;
+}
+.funny:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.funny:hover i
+{
+	top:-12px;
+}
+.funny:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End funny */
+
+/* start challeng */
+.challenge i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.challenge p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.challenge .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.challenge a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.challenge a div
+{
+	background-color:#934c0f;
+	padding:8%;
+	width:50%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 7%;
+	margin-left:3%;
+	font-size:22px;
+}
+.challenge:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.challenge:hover i
+{
+	top:-12px;
+}
+.challenge:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End challenge */
+
+/*start love */
+.love i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.love p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.love .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.love a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.love a div
+{
+	background-color:#934c0f;
+	padding:8%;
+	width:50%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 7%;
+	margin-left:3%;
+	font-size:22px;
+}
+.love:hover
+{
+	background-color:#202020;
+}
+.love:hover i
+{
+	top:-12px;
+}
+.love:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* end love */
+
+/* end sec1 */
+
+/* start sec2 */
+
+.sec2
+{
+	background-color:white;
+	min-height:100vh;
+	width:100%;
+}
+
+.sec2 .services
+{
+	color:#934c0f;
+	font-size:28px;
+	padding:3% 0 0 5%;
+}
+.sec2 hr 
+{
+	color:#f2e8e0;
+	width: 60%;
+	margin-left:5%;
+}
+.sec2 .ResponsiveWeb
+{
 	width:40%;
+	float:left;
+	margin:5% 0% 0% 4%;
+	box-sizing:border-box;
+}
+.sec2 .WebsiteDevelop
+{
+	width:40%;
+	float:left;
+	margin:5% 0% 0% -10%;
+	box-sizing:border-box;
+}
+.ResponsiveWeb .Responsive
+{
+	width:50%;
+	padding:3% 0 0 7%;
+}
+.ResponsiveWeb .Design
+{
+	font-size:18px;
+	padding:1% 0 0 7%
+}
+.ResponsiveWeb p
+{
+	width:50%;
+	padding:1.3% 0 0 7%
+}
+.ResponsiveWeb p a
+{
+	text-decoration:none;
+	color:blue
+}
+/* */
+
+.WebsiteDevelop .Responsive
+{
+	width:50%;
+	padding:3% 0 0 0%;
+}
+.WebsiteDevelop .Design
+{
+	font-size:18px;
+	padding:1% 0 0 0%
+}
+.WebsiteDevelop p
+{
+	width:50%;
+	padding:1.3% 0 0 0%
+}
+.WebsiteDevelop p a
+{
+	text-decoration:none;
+	color:blue
+}
+
+/* start working hours */
+.sec2 .hours
+{
+	color:#934c0f;
+	font-size:28px;
+	width:30%;
+	float:left;
+	margin-top:-3.3%;
+	margin-left:-8%
+	
+
+}
+.sec2 .hr2
+{
+	width:0%;
+	
+	
+}
+.days
+{
+	word-spacing:80px;
+	margin-top:10%;
+	
+}
+.days p
+{
+	padding-top:5%;
+	color:black;
+	font-size:20px;
+}
+.days hr
+{
+	width:100%;
+	border-style:dashed;
+	color:black;
+	margin-top:2%;
+	margin-left:-5%
+}
+
+/* end working hours */
+
+.fees
+{
+	width:30%;
+	float:left;
+	padding-top: 38%;
+	margin-left:-30%
+
+}
+.fees p
+{
+	padding-top: 3%;
+	
+
+}
+
+
+
+/* start footer */
+footer 
+{
+	height:7vh;
+	background-color:#934c0f;
+	color:white;
+	width:100%
+}
+.copyright
+{
+	padding:0% 0 0 8%;
+	display:inline-block;
+	
+	
+}
+.icons
+{
+	
+	padding: .5 0% 0 0;
+	font-size:25px;
+	display:inline-block;
+	width: 15%;
+	margin-left:45%;
+	padding-top:.5%;
+}
+.icons i
+{
+	border:2px solid white;
+	border-radius:8px;
+	width:18%;
+	text-align:center;
+	padding:.5%
+
+}
+.icons a
+{
+	color:white;
+	
+}
+.icons a:hover
+{
+	color:gray;
+}
+
+/* end footer */
+
+@media (min-width: 424px) and (max-width:767px)
+{
+
+*
+	{
+	padding:0;
+	margin:0;
+	}
+/* Start header */
+
+.bar
+{
+	min-width:100%;
+	height:2000vh;
+	background-color:#9d500e;
+	color:white;
+	box-sizing:border-box;
+	font-size: 25PX;
+}
+.bar .come
+{
+	padding-left:3%;
+	padding-top:.5%;
+	float:left;
+}
+.bar .call
+{
+	padding-top:.5%;
+	padding-left:55%;
+	
+}
+.bar i
+{
+	margin-right:7px;
+}
+.navigation_bar
+{
+	min-width:100%;
+	height:15vh;
+	background-color:white;
+	padding-top:2%;
+	box-sizing:border-box;
+
+}
+.navigation_bar span
+{
+	color:#9d500e;
+	font-weight:bold;
+}
+.navigation_bar .IT
+{
+	font-size:46px;
+	display:inline;
+}
+.navigation_bar i
+{
+	padding-right:5px;
+	padding-left:4%;
+	display:inline;
+}
+.navigation_bar .Home
+{
+	display:inline;
+	margin-left:2%;
+	background-color:#9d500e ;
+	color:white;
+	padding:2%;
+	border-radius:45px;
+	text-decoration:none;
+	font-size:25px
+}
+.navigation_bar .Gallery
+{
+	display:inline;
+	padding:2%;
+	font-size:25px;
+}
+.navigation_bar .Contact
+{
+	display:inline;
+	padding:2%;
+	font-size:25px;
+
+}
+.navigation_bar a
+{
+	text-decoration:none;
+	color:#9d500e;
+	font-size:20px
+}
+
+.navigation_bar .Gallery:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	border-radius:35px;
+	cursor:pointer;
+}
+.navigation_bar .Contact:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	border-radius:35px;
+	cursor:pointer;
+}
+
+/* End header */
+
+/* Start Section */
+
+ /*Start sec */
+.sec
+{	
+	background:linear-gradient(
+		rgba(0,0,0,.7),
+		rgba(0,0,0,.7)
+		),
+		url(Home.jpg);
+	height:60vh;
+	box-sizing:border-box;
+	background-size: cover;
+}
+
+.sec p
+{
+	color:white;
+	width:60%;
+	font-size:35px;
+	padding:8% 0 0 8%; 
+
+}
+.sec a
+{
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	padding:4% 0 0 8%	
+}
+.sec .Join
+{
+	margin-left:8%;
+	background-color:#9d500e;
+	width:25%;
+	padding:3%;
+	text-align:center;
+	border-radius:35px;
+	box-sizing:border-box;
+}
+.sec .Join:hover
+{
+	background-color:#061B30;
+	border:2px solid #9d500e;
+}
+ /* End sec */
+
+ /* Start sec1 */
+.sec1
+{
+	background-color:#171319;
+	height:100vh
+}
+.sec1 .funny
+{
+	width:40%;
+	float:left;
+	margin:5% .5% 0% 6%;
+	padding:5%;
+	box-sizing:border-box;
+
+
+}
+.sec1 .challenge
+{
+	width:40%;
+	float:left;
+	margin:5% .5% 0% 6%;
+	padding:5%;
+	box-sizing:border-box;
+}
+.sec1 .love
+{
+	width:40%;
+	clear:both;
+	margin:auto;
+	padding:5%;
+	box-sizing:border-box;	
+}
+.clear
+{
+	clear:both;
+}
+/* Start funny */
+.funny i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.funny p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.funny .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.funny a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.funny a div
+{
+	background-color:#934c0f;
+	padding:6%;
+	width:60%;
 	text-align:center;
 	border-radius:35px;
 	margin-top: 5%;
@@ -270,8 +819,8 @@
 .challenge a div
 {
 	background-color:#934c0f;
-	padding:3%;
-	width:40%;
+	padding:6%;
+	width:60%;
 	text-align:center;
 	border-radius:35px;
 	margin-top: 5%;
@@ -438,9 +987,9 @@
 {
 	color:#934c0f;
 	font-size:28px;
-	width:20%;
+	width:30%;
 	float:left;
-	margin-top:-2%;
+	margin-top:-4.5%;
 	margin-left:-8%
 	
 
@@ -453,7 +1002,7 @@
 }
 .days
 {
-	word-spacing:80px;
+	word-spacing:0px;
 	margin-top:10%;
 	
 }
@@ -476,10 +1025,10 @@
 
 .fees
 {
-	width:20%;
+	width:30%;
 	float:left;
-	padding-top: 28%;
-	margin-left:-21%
+	padding-top:48%;
+	margin-left:-30%
 
 }
 .fees p
@@ -512,9 +1061,564 @@ footer
 	padding: .5 0% 0 0;
 	font-size:25px;
 	display:inline-block;
-	width: 15%;
-	margin-left:45%;
+	width: 20%;
+	margin-left:40%;
+	padding-top:0.5%;
+}
+.icons i
+{
+	border:2px solid white;
+	border-radius:8px;
+	width:18%;
+	text-align:center;
+	padding:.5%
+
+}
+.icons a
+{
+	color:white;
+	
+}
+.icons a:hover
+{
+	color:gray;
+}
+}
+/* end footer */
+
+
+
+
+/* End Responsive */ 
+
+/* start Responsive */
+@media (min-width: 768px ) and (max-width: 1023px)
+{
+ 
+*
+	{
+	padding:0;
+	margin:0;
+	}
+/* Start header */
+
+.bar
+{
+	min-width:100%;
+	height:10vh;
+	background-color:#9d500e;
+	color:white;
+	box-sizing:border-box;
+	font-size: 25PX;
+}
+.bar .come
+{
+	padding-left:3%;
 	padding-top:.5%;
+	float:left;
+}
+.bar .call
+{
+	padding-top:.5%;
+	padding-left:70%;
+	
+}
+.bar i
+{
+	margin-right:7px;
+}
+.navigation_bar
+{
+	min-width:100%;
+	height:15vh;
+	background-color:white;
+	padding-top:2%;
+	box-sizing:border-box;
+
+}
+.navigation_bar span
+{
+	color:#9d500e;
+	font-weight:bold;
+}
+.navigation_bar .IT
+{
+	font-size:46px;
+	display:inline;
+}
+.navigation_bar i
+{
+	padding-right:5px;
+	padding-left:4%;
+	display:inline;
+}
+.navigation_bar .Home
+{
+	display:inline;
+	margin-left:30%;
+	background-color:#9d500e ;
+	color:white;
+	padding:2%;
+	border-radius:45px;
+	text-decoration:none;
+	font-size:25px
+}
+.navigation_bar .Gallery
+{
+	display:inline;
+	padding:2%;
+	font-size:25px;
+}
+.navigation_bar .Contact
+{
+	display:inline;
+	padding:2%;
+	font-size:25px;
+
+}
+.navigation_bar a
+{
+	text-decoration:none;
+	color:#9d500e;
+	font-size:20px
+}
+
+.navigation_bar .Gallery:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	border-radius:35px;
+	cursor:pointer;
+}
+.navigation_bar .Contact:hover
+{
+	background-color:#9d500e ;
+	color:white;
+	border-radius:35px;
+	cursor:pointer;
+}
+
+/* End header */
+
+/* Start Section */
+
+ /*Start sec */
+.sec
+{	
+	background:linear-gradient(
+		rgba(0,0,0,.7),
+		rgba(0,0,0,.7)
+		),
+		url(Home.jpg);
+	height:60vh;
+	box-sizing:border-box;
+	background-size: cover;
+}
+
+.sec p
+{
+	color:white;
+	width:60%;
+	font-size:35px;
+	padding:8% 0 0 8%; 
+
+}
+.sec a
+{
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	padding:4% 0 0 8%	
+}
+.sec .Join
+{
+	margin-left:8%;
+	background-color:#9d500e;
+	width:25%;
+	padding:3%;
+	text-align:center;
+	border-radius:35px;
+	box-sizing:border-box;
+}
+.sec .Join:hover
+{
+	background-color:#061B30;
+	border:2px solid #9d500e;
+}
+ /* End sec */
+
+ /* Start sec1 */
+.sec1
+{
+	background-color:#171319;
+	height:120vh
+}
+.sec1 .funny
+{
+	width:40%;
+	float:left;
+	margin:5% .5% 0% 6%;
+	padding:5%;
+	box-sizing:border-box;
+
+
+}
+.sec1 .challenge
+{
+	width:40%;
+	float:left;
+	margin:5% .5% 0% 6%;
+	padding:5%;
+	box-sizing:border-box;
+}
+.sec1 .love
+{
+	width:40%;
+
+	margin-left: 30%;
+	padding:5%;
+	box-sizing:border-box;	
+}
+.clear
+{
+	clear:both;
+}
+/* Start funny */
+.funny i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.funny p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.funny .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.funny a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.funny a div
+{
+	background-color:#934c0f;
+	padding:6%;
+	width:60%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.funny:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.funny:hover i
+{
+	top:-12px;
+}
+.funny:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End funny */
+
+/* start challeng */
+.challenge i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.challenge p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.challenge .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.challenge a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.challenge a div
+{
+	background-color:#934c0f;
+	padding:6%;
+	width:60%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.challenge:hover
+{
+	
+	background-color:#202020;
+	
+
+}
+.challenge:hover i
+{
+	top:-12px;
+}
+.challenge:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* End challenge */
+
+/*start love */
+.love i
+{
+	font-size:35px;
+	color:#934c0f;
+	padding:3% 0 0 3%;
+	position:relative;
+	top: 0px;	
+	transition:top 1s;	
+}
+.love p
+{
+	font-size:25px;
+	color:white;
+	padding:3% 0 0 3%
+
+}
+.love .p1
+{
+	font-size:18px;
+	color:white;
+	padding:3% 0 0 3%
+}
+.love a
+{
+	text-decoration:none;
+	color:white;
+	margin-top: 3%;
+}
+.love a div
+{
+	background-color:#934c0f;
+	padding:6%;
+	width:60%;
+	text-align:center;
+	border-radius:35px;
+	margin-top: 5%;
+	margin-left:3%;
+	font-size:22px;
+}
+.love:hover
+{
+	background-color:#202020;
+}
+.love:hover i
+{
+	top:-12px;
+}
+.love:hover div 
+{
+	background-color:#202020;
+	color:#934c0f;
+	border:2px solid #934c0f;
+}
+/* end love */
+
+/* end sec1 */
+
+/* start sec2 */
+
+.sec2
+{
+	background-color:white;
+	min-height:100vh;
+	width:100%;
+}
+
+.sec2 .services
+{
+	color:#934c0f;
+	font-size:28px;
+	padding:3% 0 0 5%;
+}
+.sec2 hr 
+{
+	color:#f2e8e0;
+	width: 60%;
+	margin-left:5%;
+}
+.sec2 .ResponsiveWeb
+{
+	width:40%;
+	float:left;
+	margin:5% 0% 0% 4%;
+	box-sizing:border-box;
+}
+.sec2 .WebsiteDevelop
+{
+	width:40%;
+	float:left;
+	margin:5% 0% 0% -10%;
+	box-sizing:border-box;
+}
+.ResponsiveWeb .Responsive
+{
+	width:50%;
+	padding:3% 0 0 7%;
+}
+.ResponsiveWeb .Design
+{
+	font-size:18px;
+	padding:1% 0 0 7%
+}
+.ResponsiveWeb p
+{
+	width:50%;
+	padding:1.3% 0 0 7%
+}
+.ResponsiveWeb p a
+{
+	text-decoration:none;
+	color:blue
+}
+/* */
+
+.WebsiteDevelop .Responsive
+{
+	width:50%;
+	padding:3% 0 0 0%;
+}
+.WebsiteDevelop .Design
+{
+	font-size:18px;
+	padding:1% 0 0 0%
+}
+.WebsiteDevelop p
+{
+	width:50%;
+	padding:1.3% 0 0 0%
+}
+.WebsiteDevelop p a
+{
+	text-decoration:none;
+	color:blue
+}
+
+/* start working hours */
+.sec2 .hours
+{
+	color:#934c0f;
+	font-size:28px;
+	width:30%;
+	float:left;
+	margin-top:-3.5%;
+	margin-left:-8%
+	
+
+}
+.sec2 .hr2
+{
+	width:0%;
+	
+	
+}
+.days
+{
+	word-spacing:0px;
+	margin-top:10%;
+	
+}
+.days p
+{
+	padding-top:5%;
+	color:black;
+	font-size:20px;
+}
+.days hr
+{
+	width:100%;
+	border-style:dashed;
+	color:black;
+	margin-top:2%;
+	margin-left:-5%
+}
+
+/* end working hours */
+
+.fees
+{
+	width:30%;
+	float:left;
+	padding-top:38%;
+	margin-left:-30%
+
+}
+.fees p
+{
+	padding-top: 3%;
+	
+
+}
+
+
+
+/* start footer */
+footer 
+{
+	height:7vh;
+	background-color:#934c0f;
+	color:white;
+	width:100%
+}
+.copyright
+{
+	padding:0% 0 0 8%;
+	display:inline-block;
+	
+	
+}
+.icons
+{
+	
+	padding: .5 0% 0 0;
+	font-size:25px;
+	display:inline-block;
+	width: 20%;
+	margin-left:40%;
+	padding-top:0.5%;
 }
 .icons i
 {
@@ -535,3 +1639,9 @@ footer
 	color:gray;
 }
 /* end footer */
+
+
+}
+
+/* End Responsive */ 
+/* start Responsive */
