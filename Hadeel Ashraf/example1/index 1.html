@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>Departments</li>
+            <li>Accounts</li>
+            <li>Contact us</li>
+        </ul>
+    </header>
+    <section>
+        <h1> Sign Up  </h1>
+        <form name="register">
+            
+            <label id="m1"></label>
+            <label id="m2"></label>
+            
+            <label > Name </label>
+            <input name="Name" type="text" width= "50" height="50" oninput="mirror(this.value,this.name)">
+            
+            <label> Password </label>
+            <input name="Password" type="password" placeholder="must be more than 8 characters" oninput="mirror(this.value,this.name)">
+            
+            <label> Email </label>
+            <input type="email">
+            
+            <label>department</label>
+            <select name="department">
+                <option>Electrical</option>
+                <option>Mechanical</option>
+                <option>Drawing</option>
+            </select>
+            
+            <label> Favourites </label>
+            <textarea></textarea>
+            
+            <label> How many Riyal? </label>
+            <input id="degree" type="number" max="410" min="0" step="50">
+            <div id="result"></div>
+            
+            <input type="checkbox" id= "remember" >
+            <label > Remeber Me </label>
+            
+            <div id="send">
+                <input type="submit" value="send">
+                <input type="reset">
+            </div>
+            <div id="clear"></div>
+          
+        </form>
+    </section>
+    <footer>
+        CopyRight &copy; 2017
+    </footer>
+    <script src="test.js"></script>
+</body>

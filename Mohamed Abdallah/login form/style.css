@@ -1,0 +1,23 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-image:url("https://as1.ftcdn.net/jpg/01/43/05/32/500_F_143053236_RgR0s1UQzGX6OhfGioNrG7XMimPBlQI3.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.login
+{
+	width: 25%;
+	height: 50vh;
+	background-color: black;
+	opacity:.85;
+	margin:25vh 0 10vh 10%;
+
+}

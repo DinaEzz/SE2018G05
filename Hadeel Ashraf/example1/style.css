@@ -1,0 +1,109 @@
+*{
+    margin:0 ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+#m1, #m2{
+    display: block;
+    border-radius: 5px;
+    margin : 20px;
+    width: 90%;
+    height: 40px;
+    border: 3px solid black;
+    background-color:bisque;
+    padding: 10px;
+        
+}
+header,footer {
+    background: #454443;
+    width:100%;
+    height: 50px;
+    color :#ffb0d8
+}
+header ul{
+    display: inline-block;
+    list-style:none;
+    width: 100%
+}
+header ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 4% 7%;
+    margin: -3% -1%;
+    width: 25%
+}
+header ul li:hover{
+  text-decoration: underline;
+  color: white;
+  }
+h1:first-letter{
+    color: #004080;
+    font-size: 63px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+h1{
+    color: #004080;
+    text-shadow: 0 5px 12px #c0c0c0;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -2px;
+    padding : 10px
+}
+form {
+    margin: 24px 70px;
+}
+form label{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+input, select{
+    display: block;
+    border-radius: 5px;
+    margin : 20px;
+    width: 90%;
+    height: 30px
+}
+
+textarea {
+    resize: none;
+    display: block;
+    border-radius: 5px;
+    margin : 20px;
+    width: 90%;
+    height: 100px
+}
+#send {
+    margin-left: 60%
+}
+#send input {
+    float:left;
+    margin:2% 1%;
+    width: 150px;
+    height: 43px;
+    background-color:black; 
+    color: #f9b0d8;
+    font-weight: 700
+    
+}
+#clear {
+    clear: both
+}
+input[type="checkbox"]{
+    display: inline;
+    width: auto;
+    height: auto 
+}
+
+input:focus{
+    box-shadow: 2px 4px 5px #808080; 
+}
+footer{
+    text-align: center;
+    font-size:18px;
+    padding: 12px;    
+}
