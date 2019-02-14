@@ -81,7 +81,7 @@
 					<form class="intro-newslatter">
 						<input type="text" placeholder="Name">
 						<input type="text" class="last-s" placeholder="E-mail">
-						<a href="register.html" class="site-btn">Sign Up Now</button></a>
+						<a href="register.php" class="site-btn">Sign Up Now</button></a>
 					</form>
 				</div>
 			</div>
